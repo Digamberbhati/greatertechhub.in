@@ -31,7 +31,7 @@ export const projects = [
   {
     title: "Tax & Insurance",
     description:
-      "Emphasize how your software solutions are designed to seamlessly integrate with tax and insurance processes, making it easier for businesses to manage their financial and compliance needs.",
+      "Our tax and insurance services provide a thorough approach to managing your financial health. We offer expert assistance with tax preparation, planning, and compliance, ensuring you maximize deductions and avoid pitfalls. Additionally, our tailored insurance solutions protect you and your assets, from personal coverage to comprehensive business policies. Trust us to navigate complex regulations and secure your financial future with confidence.",
     link: "service/tax-insurance",
   },
   {
