@@ -31,7 +31,7 @@ export const projects = [
   {
     title: "Tax & Insurance",
     description:
-      "Our tax and insurance services provide a thorough approach to managing your financial health. We offer expert assistance with tax preparation, planning, and compliance, ensuring you maximize deductions and avoid pitfalls. Additionally, our tailored insurance solutions protect you and your assets, from personal coverage to comprehensive business policies. Trust us to navigate complex regulations and secure your financial future with confidence.",
+      "Our tax and insurance services provide a thorough approach to managing your financial health. We offer expert assistance with tax preparation, planning, and compliance, ensuring you maximize deductions and avoid pitfalls. ",
     link: "service/tax-insurance",
   },
   {
@@ -110,18 +110,29 @@ const slugs = [
   "androidstudio",
   "sonarqube",
   "figma",
-  "threejs",
+ 
 ];
 
 const ServicePage = () => {
   return (
-    <div className=" max-w-5xl -z-10 py-32 mx-auto my-0  px-8 md:pt-0">
+    <div className=" max-w-screen-xl -z-10 py-32 mx-auto my-0  px-8 md:pt-0">
 
       
     <h1 className='text-3xl  w-full text-center py-8 font-semibold  text-custom-heading'>Our Services</h1>
-<div className=''>
+    <div className='flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-10 '>
+      <div className='sm:w-1/2 sm:p-4' >
 
-    <IconCloud iconSlugs={slugs} />
+    <IconCloud iconSlugs={slugs}  />
+      </div>
+
+    <div className='quote sm:w-2/3 flex flex-col sm:gap-4 w-full '>
+      <h1 className='text-[2.4vh] sm:text-[1.7vw] font-semibold'>Empowering your vision with innovative web solutions.</h1>
+      <h1 className='text-[2.4vh] sm:text-[1.7vw] font-semibold'>Transforming ideas into digital reality.</h1>
+      <h1 className='text-[2.4vh] sm:text-[1.7vw] font-semibold'>Tailored designs for seamless user experiences.</h1>
+      <h1 className='text-[2.4vh] sm:text-[1.7vw] font-semibold'>Where creativity meets cutting-edge technology.</h1>
+
+</div>
+
 </div>
     <HoverEffect items={projects} />
   </div>

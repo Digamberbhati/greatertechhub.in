@@ -1,6 +1,8 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
 import { StickyScroll } from "../../components/ui/sticky-scroll-reveal";
+
+
 
 
 
@@ -50,14 +52,18 @@ const content = [
   ];
 
 const Aboutpage = () => {
+
+  
+
+ 
   return (
 
     
     <>
 
     
-    <div className='py-32  mx-auto min-h-[50vh] z-0'>
-        <div className="max-w-screen-lg mx-auto mt-20">
+    <div className='py-32   mx-auto min-h-[60vh] z-0'>
+        <div className="max-w-screen-xl mx-auto mt-20">
 
         <StickyScroll content={content} />
         </div>

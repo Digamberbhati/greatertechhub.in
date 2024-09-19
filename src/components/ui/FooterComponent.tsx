@@ -10,7 +10,7 @@ export function FloatingDockDemo() {
     {
       title: "Instagram",
       icon: (
-        <FaSquareInstagram className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <FaSquareInstagram className="h-full w-full text-neutral-500  " />
       ),
       href: "https://www.instagram.com/greatertechhub/",
     
@@ -20,14 +20,14 @@ export function FloatingDockDemo() {
       title: "Facebook",
       icon: (
         <FaFacebook
-        className="h-full w-full text-neutral-500 dark:text-neutral-300 " />
+        className="h-full w-full text-neutral-500  " />
       ),
       href: "https://www.facebook.com/profile.php?id=61557357627522",
     },
     {
       title: "Twitter",
       icon: (
-        <FaSquareXTwitter className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <FaSquareXTwitter className="h-full w-full text-neutral-500 " />
       ),
       href: "https://x.com/Greatertechhub",
     },
@@ -35,7 +35,7 @@ export function FloatingDockDemo() {
     {
       title: "Linkedin",
       icon: (
-        <FaLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <FaLinkedin className="h-full w-full text-neutral-500 " />
       ),
       href: "https://www.linkedin.com/company/greatertechhub/",
     },
@@ -43,7 +43,7 @@ export function FloatingDockDemo() {
     {
       title: "WhatsApp",
       icon: (
-        <FaWhatsapp className="h-full w-full text-neutral-500 dark:text-neutral-300 target:" />
+        <FaWhatsapp className="h-full w-full text-neutral-500  target:" />
       ),
       href: "https://wa.me/+919588160069",
     

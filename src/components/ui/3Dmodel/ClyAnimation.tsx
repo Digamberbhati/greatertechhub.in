@@ -9,16 +9,17 @@ const ClyAnimation = () => {
   return (
     <>
       
-    <Canvas camera={{ fov: 22 }}>
+    <Canvas camera={{ fov: 22 }} className="w-full h-full ">
       {/* <OrbitControls /> */}
-      <ambientLight />
+      <ambientLight intensity={0.5} />
+      <directionalLight position={[5, 5, 5]} intensity={1} />
       <Cly />
       <EffectComposer>
         <Bloom
           mipmapBlur
-          intensity={25} 
-          luminanceThreshold={0.3}
-          luminanceSmoothing={0.3}
+          intensity={1.5}
+          luminanceThreshold={0.5}
+          luminanceSmoothing={0.5}
         />
         <ToneMapping adaptive />
       </EffectComposer>

@@ -2,10 +2,11 @@
 import Link from 'next/link';
 import React from 'react'
 import { FloatingDockDemo } from '@/components/ui/FooterComponent';
+import { DockDemo } from '@/components/ui/icons';
 const Footer = () => {  
   return (
     <>
-    <div className=' flex flex-col lg:flex-row justify-around pt-8 mt-4 items-start gap-8 px-12   py-3 tracking-tighter bg-black '>
+    <div className=' flex flex-col lg:flex-row justify-around pt-8 mt-4 items-start gap-8 px-12   py-3 tracking-tighter text-gray-200 '>
       <div className='flex flex-col gap-2'>
         <h1 className='text-2xl font-bold'>Contact Us</h1>
         <h4><b>Phone:</b> +91 9588160069</h4>
@@ -13,7 +14,8 @@ const Footer = () => {
         
         <div className='icons flex gap-2 '>
           <div className='mt-5'>
-    <FloatingDockDemo/>
+           
+   <DockDemo/>
     </div>
         </div>
       </div>
@@ -42,12 +44,13 @@ const Footer = () => {
         </div>
         <div>
           <h2 className='text-xl font-bold pb-4'>Location</h2>
-          <h2 className='text-red-500'>India</h2>
-         <h5>3rd FLoor Krishna Palace 
-          Ajronda Chowk  </h5><h5>Sector 20B  Faridabad ,Haryana 121001</h5>
+          <h2 className='text-zinc-200 font-bold sm:text-[1.5vw] text-[1.9vh]'>India</h2>
+         <h5 className='text-zinc-400'>3rd FLoor Krishna Palace 
+          Ajronda Chowk  </h5>
+          <h5 className='text-zinc-400'>Sector 20B  Faridabad ,Haryana 121001</h5>
           
-          <h2 className='text-red-500'>Australia</h2>
-         <h5>28 Woodley Cres, Glendenning NSW 2761, </h5>
+          <h2 className='text-zinc-200 font-bold sm:text-[1.5vw]  text-[1.9vh]'>Australia</h2>
+         <h5 className='text-zinc-400'>28 Woodley Cres, Glendenning NSW 2761, </h5>
         
           
          

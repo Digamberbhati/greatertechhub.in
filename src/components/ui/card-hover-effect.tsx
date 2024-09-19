@@ -20,7 +20,7 @@ export const HoverEffect = ({
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3   py-10",
+        "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4   py-10",
         className
       )}
     >
@@ -49,7 +49,7 @@ export const HoverEffect = ({
               />
             )}
           </AnimatePresence>
-          <Card className="-z-0">
+          <Card className="-z-0 border-2 border-zinc-500">
             <CardTitle>{item.title}</CardTitle>
             <CardDescription>{item.description}</CardDescription>
           </Card>

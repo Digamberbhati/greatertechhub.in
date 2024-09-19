@@ -58,13 +58,13 @@ const Contact = () => {
           <div className="bg-[#011c2b] rounded-lg p-6 h-full max-lg:order-1">
             <h2 className="text-xl text-white">Contact Information</h2>
             <p className="text-sm text-gray-300 mt-4">
-            <span className='text-red-700'>India</span> <br />
+            <span className='font-bold'>India</span> <br />
             3rd FLoor Krishna Palace Ajronda Chowk ,
             Sector 20B Faridabad ,Haryana 121001
             </p>
 
             <p className="text-sm text-gray-300 mt-4">
-            <span className='text-red-700'>Australia</span> <br />
+            <span className='font-bold'>Australia</span> <br />
             28 Woodley Cres, Glendenning NSW 2761
             </p>
 
