@@ -68,8 +68,6 @@ const Navbar = ({ className }: { className?: string }) => {
                     <Link href="/service" className="hover:border-b hover:border-custom-text duration-200">Service</Link>
                     <Link href="/contact" className="hover:border-b hover:border-custom-text duration-200">Contact</Link>
                     <Link href="/careers" className="hover:border-b hover:border-custom-text duration-200">Careers</Link>
-                    <Link href="/refer&earn" className="hover:border-b hover:border-custom-text duration-200">
-                    Refer&Earn</Link>
                     <Link href="/courses" className="hover:border-b hover:border-custom-text duration-200">
                     Courses</Link>
                     <MenuItem setActive={setActive} active={active} item="Company">
@@ -78,7 +76,7 @@ const Navbar = ({ className }: { className?: string }) => {
                             <HoveredLink href="/client">Client</HoveredLink>
                             {/* <HoveredLink href="/careers">Careers</HoveredLink> */}
                             <HoveredLink href="/support">Support</HoveredLink>
-                            <HoveredLink href="/partnership">Partnership</HoveredLink>
+                            {/* <HoveredLink href="/partnership">Partnership</HoveredLink> */}
                         </div>
                     </MenuItem>
                 </Menu>

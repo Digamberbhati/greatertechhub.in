@@ -32,15 +32,18 @@ const Footer = () => {
         <div>
           <h2 className='text-xl font-bold pb-4'>Helpful Links</h2>
           <Link href={"/careers"}> <h4 className='hover:text-gray-300 hover:scale-500 duration-150'>- Career</h4></Link>
-          {/* <Link href={"/event"}> <h4 className='hover:text-gray-300 hover:scale-500 duration-150'>- Event</h4></Link> */}
+         
           <Link href={"/support"}> <h4 className='hover:text-gray-300 hover:scale-500 duration-150'>- Support</h4></Link>
+          <Link href={"/partnership"}> <h4 className='hover:text-gray-300 hover:scale-500 duration-150'>- Partnership</h4></Link>
+          <Link href={"/refer&earn"}> <h4 className='hover:text-gray-300 hover:scale-500 duration-150'>- Refer&Earn</h4></Link>
         </div>
 
         <div>
           <h2 className='text-xl font-bold pb-4'>Legal Links</h2>
           <Link href={"/terms-of-service"}> <h4 className='hover:text-gray-300 hover:scale-500 duration-150'>- Term of service</h4></Link>
           <Link href={"/privacy-policy"}> <h4 className='hover:text-gray-300 hover:scale-500 duration-150'>- Privacy policy</h4></Link>
-          
+        
+         
         </div>
         <div>
           <h2 className='text-xl font-bold pb-4'>Location</h2>
