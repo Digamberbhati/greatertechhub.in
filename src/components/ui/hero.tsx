@@ -16,7 +16,7 @@ export default function HeroSection(props:any) {
       />
 
       {/* Overlay */}
-      <div className="absolute top-0 right-0 bottom-0 left-0 bg-gray-900 opacity-75"></div>
+      <div className="absolute top-0 right-0 bottom-0 left-0 bg-gray-900 opacity-20"></div>
 
       {/* Main Content */}
       <main className="px-10 lg:px-24 z-10">
