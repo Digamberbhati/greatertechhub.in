@@ -52,8 +52,8 @@ const Footer = () => {
           Ajronda Chowk  </h5>
           <h5 className='text-zinc-400'>Sector 20B  Faridabad ,Haryana 121001</h5>
           
-          <h2 className='text-zinc-200 font-bold sm:text-[1.5vw]  text-[1.9vh]'>Australia</h2>
-         <h5 className='text-zinc-400'>28 Woodley Cres, Glendenning NSW 2761, </h5>
+          <h2 className='text-zinc-200 font-bold sm:text-[1.5vw]  text-[1.9vh]'>Location</h2>
+         {/* <h5 className='text-zinc-400'>28 Woodley Cres, Glendenning NSW 2761, </h5> */}
         
           
          
