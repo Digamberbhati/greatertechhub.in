@@ -60,7 +60,7 @@ const Footer = () => {
         </div>
       </div>
     </div>
-      <p className='text-center my-2 pb-4'>©2024 Copyright Greatertechhub. All Rights Reserved</p>
+      <p className='text-center my-2 pb-4'>©2025 Copyright Greatertechhub. All Rights Reserved</p>
       </>
   )
 }
