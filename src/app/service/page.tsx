@@ -29,9 +29,9 @@ export const projects = [
     link: "service/marketAnalysis",
   },
   {
-    title: "Tax & Insurance",
+    title: "2D & 3D Animation",
     description:
-      "Our tax and insurance services provide a thorough approach to managing your financial health. We offer expert assistance with tax preparation, planning, and compliance, ensuring you maximize deductions and avoid pitfalls. ",
+      "We bring stories to life with stunning 2D & 3D animation, cinematic VFX, and professional video production. From vlogs and web series to weddings and corporate events, our visual magic leaves a lasting impact. ",
     link: "service/tax-insurance",
   },
   {
